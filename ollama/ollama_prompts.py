@@ -1,11 +1,10 @@
 from langchain_ollama import ChatOllama
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage, SystemMessage
 
 
-def user_invocation(llm, human_prompt: str = None) -> str:
+def user_invoke(llm, human_prompt: str = None) -> str:
     """
-    Invocation with user prompt only
+    Invoke with user prompt only
 
     :param llm: ChatOllama Model
     :param human_prompt: User prompt
@@ -16,9 +15,9 @@ def user_invocation(llm, human_prompt: str = None) -> str:
     return ai_msg.content
 
 
-def system_user_invocation(llm, system_rule: str = None, human_prompt: str = None) -> str:
+def system_user_invoke(llm, system_rule: str = None, human_prompt: str = None) -> str:
     """
-    Invocation with system rules and user prompt
+    Invoke with system rules and user prompt
 
     :param llm: ChatOllama Model
     :param human_prompt: User prompt
@@ -35,9 +34,9 @@ def system_user_invocation(llm, system_rule: str = None, human_prompt: str = Non
     return ai_msg.content
 
 
-def system_user_message_invocation(llm, system_rule: str = None, human_prompt: str = None) -> str:
+def system_user_message_invoke(llm, system_rule: str = None, human_prompt: str = None) -> str:
     """
-    Invocation using HumanMessage and SystemMessage
+    Invoke using HumanMessage and SystemMessage
 
     :param llm: ChatOllama Model
     :param human_prompt: User prompt
@@ -66,19 +65,19 @@ if __name__ == "__main__":
     # Create your prompt in order to talk with LLM
     # For example: "I like programming in Python"
     user_prompt = "I like programming in Python"
-    msg_0 = user_invocation(llm=llm_ollama, human_prompt=user_prompt)
+    msg_0 = user_invoke(llm=llm_ollama, human_prompt=user_prompt)
     print(f"Sending user prompt to LLM --------------------------------------------------------------------\n{msg_0}\n")
 
-    # Invocation with system rules and user prompt
+    # Invoke with system rules and user prompt
     # Describe rules for system
     system_rules = "You are a helpful assistant."
     user_prompt = "I like programming in Python"
-    msg_1 = system_user_invocation(llm=llm_ollama, system_rule=system_rules, human_prompt=user_prompt)
+    msg_1 = system_user_invoke(llm=llm_ollama, system_rule=system_rules, human_prompt=user_prompt)
     print(f"Sending system rules and user prompt to LLM ---------------------------------------------------\n{msg_1}\n")
 
-    # Invocation using HumanMessage and SystemMessage
+    # Invoke using HumanMessage and SystemMessage
     # Describe rules for system
     system_rules = "You are a helpful assistant."
     user_prompt = "I like programming in Python"
-    msg_2 = system_user_message_invocation(llm=llm_ollama, system_rule=system_rules, human_prompt=user_prompt)
+    msg_2 = system_user_message_invoke(llm=llm_ollama, system_rule=system_rules, human_prompt=user_prompt)
     print(f"Sending using HumanMessage and SystemMessage --------------------------------------------------\n{msg_2}\n")

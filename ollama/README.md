@@ -16,9 +16,9 @@ Tested with Python 3.10
 
 
 ## Examples
-| **Section** | **What does it cover?**                                                                                                    | **Code**                               |
-|-------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Prompts     | Invocation with user prompt, Invocation with system rules and user prompt, Invocation using HumanMessage and SystemMessage | [ollama_prompts.py](ollama_prompts.py) |
-
+| **Section** | **What does it cover?**                                                                                        | **Code**                               |
+|-------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| Prompts     | Invoke with user prompt, Invoke with system rules and user prompt, Invoke using HumanMessage and SystemMessage | [ollama_prompts.py](ollama_prompts.py) |
+| JSON output | Invoke with JSON output                                                                                        | [ollama_json.py](ollama_json.py)       |
 
 
