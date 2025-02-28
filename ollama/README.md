@@ -20,5 +20,5 @@ Tested with Python 3.10
 |-------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | Prompts     | Invoke with user prompt, Invoke with system rules and user prompt, Invoke using HumanMessage and SystemMessage | [ollama_prompts.py](ollama_prompts.py) |
 | JSON output | Invoke with JSON output                                                                                        | [ollama_json.py](ollama_json.py)       |
-
+| assistant   | Invoke with assistant mesage                                                                                   | [ollama_assistant.py](ollama_assistant.py)
 

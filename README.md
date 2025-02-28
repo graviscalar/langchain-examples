@@ -13,9 +13,9 @@ Explore code examples within this repository that showcase the use of LangChain.
 
 
 ## Examples
-| **Section**     | **What does it cover?** |
-|-----------------|-------------------------|
-| Ollama examples | Prompts, JSON output    |
+| **Section**               | **What does it cover?**         |
+|---------------------------|---------------------------------|
+| [Ollama examples](ollama) | Prompts, JSON output, assistant |
 
 
 
