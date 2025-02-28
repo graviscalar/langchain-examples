@@ -16,9 +16,10 @@ Tested with Python 3.10
 
 
 ## Examples
-| **Section**     | **What does it cover?**                                                                                        | **Code**                                               |
-|-----------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| Prompts         | Invoke with user prompt, Invoke with system rules and user prompt, Invoke using HumanMessage and SystemMessage | [ollama_prompts.py](ollama_prompts.py)                 |
-| JSON output     | Invoke with JSON output                                                                                        | [ollama_json.py](ollama_json.py)                       |
-| Assistant       | Invoke with assistant message                                                                                  | [ollama_assistant.py](ollama_assistant.py)             |
-| Prompt template | Invoke with prompt template                                                                                    | [ollama_prompt_template.py](ollama_prompt_template.py) |
+| **Section**                               | **What does it cover?**                                                                                        | **Code**                                               |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Prompts                                   | Invoke with user prompt, Invoke with system rules and user prompt, Invoke using HumanMessage and SystemMessage | [ollama_prompts.py](ollama_prompts.py)                 |
+| JSON output                               | Invoke with JSON output                                                                                        | [ollama_json.py](ollama_json.py)                       |
+| Assistant                                 | Invoke with assistant message                                                                                  | [ollama_assistant.py](ollama_assistant.py)             |
+| Prompt template                           | Invoke with prompt template                                                                                    | [ollama_prompt_template.py](ollama_prompt_template.py) |
+| ResponseSchema and StructuredOutputParser | Invoke with prompt template and schema, return Python dictionary with parser                                   | [ollama_output_parser.py](ollama_output_parser.py)     |

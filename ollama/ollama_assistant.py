@@ -48,5 +48,5 @@ if __name__ == "__main__":
         AIMessage(content="That's great! Python and PyTorch are a powerful combination for machine learning and deep learning."),
         HumanMessage(content="From my previous messages, can you identify any topics or technologies that I seem to be interested in?")
     ]
-    msg_0 = user_assistant_invoke(llm=llm_ollama, messages=langchain_messages)
-    print(f"Invoke messages in Langchain format -----------------------------------------------------------\n{msg_0}\n")
+    msg_1 = user_assistant_invoke(llm=llm_ollama, messages=langchain_messages)
+    print(f"Invoke messages in Langchain format -----------------------------------------------------------\n{msg_1}\n")
