@@ -1,2 +1,5 @@
 langchain_ollama
 langchain
+langchain_community
+pypdf
+docx2txt

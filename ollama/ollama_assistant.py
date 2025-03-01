@@ -28,7 +28,7 @@ if __name__ == "__main__":
     openai_llama_messages = [
         {
             "role": "user",
-            "content": "I like Python and Pytorch?",
+            "content": "I like Python and Pytorch",
         },
         {
             "role": "assistant",
