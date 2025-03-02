@@ -42,7 +42,7 @@ if __name__ == "__main__":
     msg_pdf = prompt_template_invoke(llm=llm_ollama, prompt_template=ollama_template_pdf)
     print(f"Extract keywords from PDF file --------------------------------------------------------------\n{msg_pdf}\n")
 
-    # Create loader wor Word file
+    # Create loader for Word file
     loader = Docx2txtLoader("../data/docs/pytorch_sequential.docx")
     pages_doc = loader.load()
     # Print metadata
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     msg_doc = prompt_template_invoke(llm=llm_ollama, prompt_template=ollama_template_doc)
     print(f"Identify the main topic from Doc file -------------------------------------------------------\n{msg_doc}\n")
 
-    # Create loader wor Txt file
+    # Create loader for Txt file
     loader = TextLoader("../data/docs/pytorch_parameterdict.txt")
     pages_txt = loader.load()
     # Invoke with prompt template
