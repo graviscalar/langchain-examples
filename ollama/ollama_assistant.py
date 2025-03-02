@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     # Sending messages in Langchain format
     langchain_messages = [
-        HumanMessage(content="I like Python and Pytorch?"),
+        HumanMessage(content="I like Python and Pytorch"),
         AIMessage(content="That's great! Python and PyTorch are a powerful combination for machine learning and deep learning."),
         HumanMessage(content="From my previous messages, can you identify any topics or technologies that I seem to be interested in?")
     ]
