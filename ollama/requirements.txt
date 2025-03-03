@@ -3,3 +3,5 @@ langchain
 langchain_community
 pypdf
 docx2txt
+chromadb
+ollama

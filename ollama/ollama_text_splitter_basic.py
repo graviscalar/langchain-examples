@@ -6,11 +6,6 @@ if __name__ == "__main__":
     # Create loader for Txt file
     loader = TextLoader("../data/docs/quantization.txt")
     pages_txt = loader.load()
-    # Invoke with prompt template
-    # Create template
-    template_txt = """Give me a short summary of {text}."""
-    # Create a chat prompt template from a template string
-    chat_template_txt = ChatPromptTemplate.from_template(template_txt)
     text = pages_txt[0].page_content
 
     # Create char splitter
