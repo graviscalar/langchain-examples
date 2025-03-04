@@ -6,3 +6,5 @@ docx2txt
 chromadb
 ollama
 tiktoken
+Pillow
+
