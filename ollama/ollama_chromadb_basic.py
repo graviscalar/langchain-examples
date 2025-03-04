@@ -26,7 +26,7 @@ if __name__ == "__main__":
     r_splitter = RecursiveCharacterTextSplitter(chunk_size=512,
                                                 chunk_overlap=64)
     r_split = r_splitter.split_documents(pages_txt)
-
+    # Create vector database
     vector_db = Chroma.from_documents(
         documents=r_split,
         embedding=OllamaEmbeddings(model="nomic-embed-text"),

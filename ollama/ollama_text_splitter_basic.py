@@ -1,6 +1,5 @@
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import TextLoader
-from langchain.text_splitter import CharacterTextSplitter, RecursiveCharacterTextSplitter
+from langchain.text_splitter import CharacterTextSplitter, RecursiveCharacterTextSplitter, TokenTextSplitter
 
 if __name__ == "__main__":
     # Create loader for Txt file
@@ -11,6 +10,7 @@ if __name__ == "__main__":
     # Create char splitter
     c_splitter = CharacterTextSplitter(chunk_size=512,
                                        chunk_overlap=64)
+    # Split text
     c_split = c_splitter.split_text(text=text)
     print(f"Length of c_split = {len(c_split)}\n")
     print(f"Split Txt file with CharacterTextSplitter ---------------------------------------------------\n{c_split}\n")
@@ -18,6 +18,20 @@ if __name__ == "__main__":
     # Create recursive splitter
     r_splitter = RecursiveCharacterTextSplitter(chunk_size=512,
                                                 chunk_overlap=64)
+    # Split text
     r_split = r_splitter.split_text(text=text)
     print(f"Length of r_split = {len(r_split)}\n")
     print(f"Split Txt file with RecursiveCharacterTextSplitter ------------------------------------------\n{r_split}\n")
+
+    # Split document
+    doc_split = r_splitter.split_documents(documents=pages_txt)
+    print(f"Length of doc_split = {len(doc_split)}\n")
+    print(f"Split Txt file with split_documents -------------------------------------------------------\n{doc_split}\n")
+
+    # Create token splitter
+    t_splitter = TokenTextSplitter(chunk_size=512,
+                                   chunk_overlap=64)
+
+    t_split = t_splitter.split_documents(documents=pages_txt)
+    print(f"Length of t_split = {len(t_split)}\n")
+    print(f"Split Txt file with TokenTextSplitter ------------------------------------------------------\n{t_split}\n")

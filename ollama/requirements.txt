@@ -5,3 +5,4 @@ pypdf
 docx2txt
 chromadb
 ollama
+tiktoken

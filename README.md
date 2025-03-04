@@ -13,9 +13,9 @@ Explore code examples within this repository that showcase the use of LangChain.
 
 
 ## Examples
-| **Section**               | **What does it cover?**                                                                                                                            |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Ollama examples](ollama) | Prompts, JSON output, Assistant, Prompt template, ResponseSchema, StructuredOutputParser, Document Loader, Text splitters, Chain, Sequential chain |
+| **Section**               | **What does it cover?**                                                                                                                                                                 |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Ollama examples](ollama) | Prompts, JSON output, Assistant, Prompt template, ResponseSchema, StructuredOutputParser, Document Loader, Text splitter, Document splitter, , Chain, Sequential chain, Vector database |
 
 
 
