@@ -7,16 +7,11 @@ Explore code examples within this repository that showcase the use of LangChain.
 
 Tested with Python 3.10 and Langchain 0.3.19
 
-## Contents of this page
-
-* [Examples](#examples)
-
-
 
 ## Examples
-| **Section**               | **What does it cover?**                                                                                                                                                                                                               |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Ollama examples](ollama) | Prompts, JSON output, Assistant, Prompt template, ResponseSchema, StructuredOutputParser, Document Loader, Text splitter, Document splitter, TokenTextSplitter, Chain, Sequential chain, Vector database, Multi-modal image prompting |
+| **Section**               | **What does it cover?**                                                                                                                                                                                                                 |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Ollama examples](ollama) | Prompts, JSON output, Assistant, Prompt template, ResponseSchema, StructuredOutputParser, Document Loader, Text splitter, Document splitter, TokenTextSplitter, Chain, Sequential chain, Vector database, Multi-modal image prompting, Semantic prompt router |
 
 
 
