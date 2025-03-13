@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Examples of using Langchain with Ollama and Llama3.2 model.
+Examples of using Langchain with Ollama, Llama3.2 model and Gemma 3.
 Ollama allows you to run open-source large language models, such as Llama 3.2, locally.
 Learn more about Ollama integration on the LangChain [website](https://python.langchain.com/docs/integrations/chat/ollama/).
 
@@ -24,9 +24,10 @@ Tested with Python 3.10 and Langchain 0.3.19
 | Prompt template                              | Invoke with prompt template                                                                                    | [ollama_prompt_template.py](ollama_prompt_template.py)               |
 | ResponseSchema and StructuredOutputParser    | Invoke with prompt template and schema, return Python dictionary with parser                                   | [ollama_output_parser.py](ollama_output_parser.py)                   |
 | Basic document loaders for PDF, Word and txt | Basic document loaders for PDF, Word and txt                                                                   | [ollama_document_loader_basic.py](ollama_document_loader_basic.py)   |
-| Basic text splitter                          | Text splitting wiht CharacterTextSplitter, RecursiveCharacterTextSplitter and TokenTextSplitter                | [ollama_text_splitter_basic.py](ollama_text_splitter_basic.py)       |
+| Basic text splitter                          | Text splitting with CharacterTextSplitter, RecursiveCharacterTextSplitter and TokenTextSplitter                | [ollama_text_splitter_basic.py](ollama_text_splitter_basic.py)       |
 | Basic chain                                  | Invoke basic chain with and without StrOutputParser                                                            | [ollama_chain_basic.py](ollama_chain_basic.py)                       |
 | Sequential chain                             | Invoke Sequential chain made by using 2 chains                                                                 | [ollama_basic_sequential_chain.py](ollama_basic_sequential_chain.py) |
 | Vector database                              | Simple document splitting and embedding to ChromaDB and retrieval with prompt                                  | [ollama_chromadb_basic.py](ollama_chromadb_basic.py)                 |
 | Multi-modal image prompting                  | Simple prompt to image with multi-modal model Llava                                                            | [ollama_vision_llava_basic.py](ollama_vision_llava_basic.py)         |
+| Multi-modal image prompting                  | Simple prompt to image with multi-modal model Gemma 3                                                          | [ollama_vision_llava_basic.py](ollama_vision_llava_basic.py)         |
 | Semantic prompt router                       | Semantic routing between prompts by using RunnablePassthrough, RunnableLambda and cosine_similarity            | [ollama_semantic_prompt_router.py](ollama_semantic_prompt_router.py) |
