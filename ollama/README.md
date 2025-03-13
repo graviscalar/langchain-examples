@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Examples of using Langchain with Ollama, Llama3.2 model and Gemma 3.
+Examples of using Langchain and LangGraph with Ollama, Llama3.2 model and Gemma 3.
 Ollama allows you to run open-source large language models, such as Llama 3.2, locally.
 Learn more about Ollama integration on the LangChain [website](https://python.langchain.com/docs/integrations/chat/ollama/).
 
-Tested with Python 3.10 and Langchain 0.3.19
+Tested with Python 3.10, Langchain 0.3.19 and LangGraph 0.3.8
 
 * [Ollama](https://ollama.com/download) should be installed and running
 * Pull a Llama 3.2 model to use with the library: `ollama pull llama3.2`
@@ -29,5 +29,6 @@ Tested with Python 3.10 and Langchain 0.3.19
 | Sequential chain                             | Invoke Sequential chain made by using 2 chains                                                                 | [ollama_basic_sequential_chain.py](ollama_basic_sequential_chain.py) |
 | Vector database                              | Simple document splitting and embedding to ChromaDB and retrieval with prompt                                  | [ollama_chromadb_basic.py](ollama_chromadb_basic.py)                 |
 | Multi-modal image prompting with Llava       | Simple prompt to image with multi-modal model Llava                                                            | [ollama_vision_llava_basic.py](ollama_vision_llava_basic.py)         |
-| Multi-modal image prompting with Gemma 3     | Simple prompt to image with multi-modal model Gemma 3                                                          | [ollama_vision_gemma3_basic.py](ollama_vision_gemma3_basic.py)         |
+| Multi-modal image prompting with Gemma 3     | Simple prompt to image with multi-modal model Gemma 3                                                          | [ollama_vision_gemma3_basic.py](ollama_vision_gemma3_basic.py)       |
 | Semantic prompt router                       | Semantic routing between prompts by using RunnablePassthrough, RunnableLambda and cosine_similarity            | [ollama_semantic_prompt_router.py](ollama_semantic_prompt_router.py) |
+| Chatbot with Gemma 3                         | Basic Chatbot with MemorySaver and Gemma 3                                                                     | [ollama_chatbot_basic.py](ollama_chatbot_basic.py)                   |
