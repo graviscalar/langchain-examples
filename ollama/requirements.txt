@@ -9,3 +9,4 @@ tiktoken
 Pillow
 langGraph
 faiss-cpu
+numpy
