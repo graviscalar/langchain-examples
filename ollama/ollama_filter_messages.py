@@ -7,7 +7,6 @@ if __name__ == "__main__":
     model = "llama3.2"
     temperature = 0
 
-    # Set up format to JSON mode
     llm_ollama = ChatOllama(model=model,
                             temperature=temperature)
 

@@ -8,3 +8,4 @@ ollama
 tiktoken
 Pillow
 langGraph
+faiss-cpu
