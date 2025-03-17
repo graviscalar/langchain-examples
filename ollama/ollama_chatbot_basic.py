@@ -35,7 +35,8 @@ if __name__ == "__main__":
     # Start chat
     while True:
         user_input = input('Chat with history: ')
-
+        if user_input == "quit":
+            break
         input_messages = [HumanMessage(user_input)]
         output = app.invoke({"messages": input_messages}, config)
         output["messages"][-1].pretty_print()
