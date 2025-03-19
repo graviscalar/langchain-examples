@@ -13,8 +13,6 @@ def model_load_save(model_name: str, dir_save: str):
     """
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
-    # if not os.path.exists(dir_save):
-    #     os.makedirs(dir_save)
     tokenizer.save_pretrained(dir_save)
     model.save_pretrained(dir_save)
     return os.path.exists(dir_save)
