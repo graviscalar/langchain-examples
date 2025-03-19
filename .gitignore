@@ -4,6 +4,7 @@
 .venv
 env/
 venv/
+models/
 **/__pycache__
 *.py[cod]
 *$py.class
