@@ -3,3 +3,5 @@ streamlit
 langchain_ollama
 langchain_community
 duckduckgo-search
+validators
+unstructured
