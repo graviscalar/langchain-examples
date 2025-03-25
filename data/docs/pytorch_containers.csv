@@ -1,0 +1,7 @@
+name, explanation
+Module, "Base class for all neural network modules."
+Sequential, "A sequential container."
+ModuleList, "Holds submodules in a list."
+ModuleDict, "Holds submodules in a dictionary."
+ParameterList, "Holds parameters in a list."
+ParameterDict, "Holds parameters in a dictionary."

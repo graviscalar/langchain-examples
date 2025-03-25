@@ -11,3 +11,4 @@ langGraph
 faiss-cpu
 numpy
 transformers
+duckdb
