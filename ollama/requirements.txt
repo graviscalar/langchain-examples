@@ -12,3 +12,6 @@ faiss-cpu
 numpy
 transformers
 duckdb
+langchain-mongodb
+pymongo
+
