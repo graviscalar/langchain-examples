@@ -19,17 +19,18 @@ Tested with Python 3.10, Langchain 0.3.19 and LangGraph 0.3.8
 
 ### Basics
 
-| **Section**                                  | **What does it cover?**                                                                                        | **Code**                                                                           |
-|----------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Prompts                                      | Invoke with user prompt, Invoke with system rules and user prompt, Invoke using HumanMessage and SystemMessage | [ollama_prompts.py](ollama_prompts.py)                                             |
-| JSON output                                  | Invoke with JSON output                                                                                        | [ollama_json.py](ollama_json.py)                                                   |
-| Assistant                                    | Invoke with assistant message                                                                                  | [ollama_assistant.py](ollama_assistant.py)                                         |
-| Prompt template                              | Invoke with prompt template                                                                                    | [ollama_prompt_template.py](ollama_prompt_template.py)                             |
-| ResponseSchema and StructuredOutputParser    | Invoke with prompt template and schema, return Python dictionary with parser                                   | [ollama_output_parser.py](ollama_output_parser.py)                                 |
-| Filter messages                              | Filter messages by type, name, id, during chain invoke                                                         | [ollama_filter_messages.py](ollama_filter_messages.py)                             |
-| Trim messages                                | Trim messages with token counter and with mesage count                                                         | [ollama_trim_messages.py](ollama_trim_messages.py)                                 |
-| Simple schema extractor                      | Create schema class and prompt as extractor. Parameters extraction from text.                                  | [ollama_schema_extractor.py](ollama_schema_extractor.py)                           |
-| Sequential chain                             | Invoke Sequential chain made by using 2 chains                                                                 | [ollama_basic_sequential_chain.py](ollama_basic_sequential_chain.py)               |
+| **Section**                               | **What does it cover?**                                                                                        | **Code**                                                             |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Prompts                                   | Invoke with user prompt, Invoke with system rules and user prompt, Invoke using HumanMessage and SystemMessage | [ollama_prompts.py](ollama_prompts.py)                               |
+| JSON output                               | Invoke with JSON output                                                                                        | [ollama_json.py](ollama_json.py)                                     |
+| Assistant                                 | Invoke with assistant message                                                                                  | [ollama_assistant.py](ollama_assistant.py)                           |
+| Prompt template                           | Invoke with prompt template                                                                                    | [ollama_prompt_template.py](ollama_prompt_template.py)               |
+| ResponseSchema and StructuredOutputParser | Invoke with prompt template and schema, return Python dictionary with parser                                   | [ollama_output_parser.py](ollama_output_parser.py)                   |
+| Filter messages                           | Filter messages by type, name, id, during chain invoke                                                         | [ollama_filter_messages.py](ollama_filter_messages.py)               |
+| Trim messages                             | Trim messages with token counter and with message count                                                        | [ollama_trim_messages.py](ollama_trim_messages.py)                   |
+| Simple schema extractor                   | Create schema class and prompt as extractor. Parameters extraction from text.                                  | [ollama_schema_extractor.py](ollama_schema_extractor.py)             |
+| Sequential chain                          | Invoke Sequential chain made by using 2 chains                                                                 | [ollama_basic_sequential_chain.py](ollama_basic_sequential_chain.py) |
+| Structured output                         | Structured output with Pydantic, TypedDict and JSON. Required LLM with tools                                   | [ollama_structured_output.py](ollama_structured_output.py)           |
 
 ### Text loading and splitting
 
