@@ -22,7 +22,7 @@ if __name__ == '__main__':
     model_id = "microsoft/phi-2"
     dir_model = "models/hf-frompretrained/microsoft/phi-2/"
     # Download and save model. RUN THIS FUNCTION ONLY 1 TIME. Model will be saved to your local pc.
-    # model_load_save(model_name=model_id, dir_save=dir_model) # comment this function after saving model to local pc.
+    model_load_save(model_name=model_id, dir_save=dir_model) # comment this function after saving model to local pc.
 
     tokenizer = AutoTokenizer.from_pretrained(dir_model)
     model = AutoModelForCausalLM.from_pretrained(dir_model)
