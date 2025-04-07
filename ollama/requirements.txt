@@ -16,3 +16,4 @@ langchain-mongodb
 pymongo
 langchain_pinecone
 pinecone
+grandalf

@@ -5,3 +5,5 @@ langchain_community
 duckduckgo-search
 validators
 unstructured
+pinecone
+langchain-pinecone

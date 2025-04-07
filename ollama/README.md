@@ -82,3 +82,9 @@ Tested with Python 3.10, Langchain 0.3.19 and LangGraph 0.3.8
 |----------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | Multi-modal image prompting with Llava       | Simple prompt to image with multi-modal model Llava                                                            | [ollama_vision_llava_basic.py](ollama_vision_llava_basic.py)                       |
 | Multi-modal image prompting with Gemma 3     | Simple prompt to image with multi-modal model Gemma 3                                                          | [ollama_vision_gemma3_basic.py](ollama_vision_gemma3_basic.py)                     |
+
+### Debug
+
+| **Section**      | **What does it cover?**      | **Code**                                                 |
+|------------------|------------------------------|----------------------------------------------------------|
+| Inspect runnable | Create chain and print graph | [ollama_inspect_runnable.py](ollama_inspect_runnable.py) |
