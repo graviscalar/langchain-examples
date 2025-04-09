@@ -17,3 +17,5 @@ pymongo
 langchain_pinecone
 pinecone
 grandalf
+spacy
+nltk

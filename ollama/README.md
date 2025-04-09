@@ -34,11 +34,11 @@ Tested with Python 3.10, Langchain 0.3.19 and LangGraph 0.3.8
 
 ### Text loading and splitting
 
-| **Section**                                  | **What does it cover?**                                                                                        | **Code**                                                                           |
-|----------------------------------------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Basic document loaders for PDF, Word and txt | Basic document loaders for PDF, Word and txt                                                                   | [ollama_document_loader_basic.py](ollama_document_loader_basic.py)                 |
-| Basic text splitter                          | Text splitting with CharacterTextSplitter, RecursiveCharacterTextSplitter and TokenTextSplitter                | [ollama_text_splitter_basic.py](ollama_text_splitter_basic.py)                     |
-| Basic chain                                  | Invoke basic chain with and without StrOutputParser                                                            | [ollama_chain_basic.py](ollama_chain_basic.py)                                     |
+| **Section**                                  | **What does it cover?**                                                                                       | **Code**                                                                           |
+|----------------------------------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Basic document loaders for PDF, Word and txt | Basic document loaders for PDF, Word and txt                                                                  | [ollama_document_loader_basic.py](ollama_document_loader_basic.py)                 |
+| Basic text splitter                          | Text splitting with CharacterTextSplitter, RecursiveCharacterTextSplitter, TokenTextSplitter, Spacy, and NLTK | [ollama_text_splitter_basic.py](ollama_text_splitter_basic.py)                     |
+| Basic chain                                  | Invoke basic chain with and without StrOutputParser                                                           | [ollama_chain_basic.py](ollama_chain_basic.py)                                     |
 
 ### Database
 
